@@ -1,11 +1,4 @@
-SELECT e.*, 
-(SELECT COUNT(*) FROM tickets t WHERE t.event_id = e.id AND t.available > 0) as available_tickets
-FROM events e
-WHERE e.date >= NOW()
-ORDER BY e.date ASC;
 
-
--- Create events table
 CREATE TABLE events (
     id INT PRIMARY KEY AUTO_INCREMENT,
     name VARCHAR(255) NOT NULL,
