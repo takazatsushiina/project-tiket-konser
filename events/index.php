@@ -28,7 +28,7 @@ $result = $conn->query($sql);
                     <th>Nama</th>
                     <th>Tanggal</th>
                     <th>Tempat</th>
-                    <th>Detail</th>
+                    <th>Aksi</th>
                 </tr>
             </thead>
             <tbody>
