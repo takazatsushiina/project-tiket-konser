@@ -39,7 +39,7 @@ $result = $conn->query($sql);
                     <th>Total</th>
                     <th>Status</th>
                     <th>Tanggal</th>
-                    <th>Aksi</th>
+                    <th>Detail</th>
                 </tr>
             </thead>
             <tbody>
